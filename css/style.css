@@ -174,4 +174,46 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* END OF QUOTE SECTION */
 
+/* START OF CALL TO ACTION SECTION */
+
+.cta-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 900px;
+    border-radius: 5px;
+    background: var(--button-color);
+    align-self: center;
+    margin-bottom: 70px;
+    color: var(--hero-color);
+    padding: 30px;
+}
+
+.cta-1 {
+    width: 550px;
+}
+
+.cta-1 p {
+    font-size: .9rem;
+}
+
+.cta-2 button {
+    width: 90px;
+    height: 30px;
+    background: var(--button-color);
+    border: 2px solid var(--hero-color);
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--hero-color);
+    font-family: var(--font);
+}
+
+.cta-2 button:hover {
+    border: 2px solid black;
+    color: black;
+}
+
+/* END OF CALL TO ACTION SECTION */
+
 /* END OF MAIN CONTENT CSS */

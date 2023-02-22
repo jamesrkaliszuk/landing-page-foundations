@@ -22,6 +22,8 @@ h1,h2,h3,h4,h5,h6,p {
     font-family: var(--font);
 }
 
+
+/* HEADER CSS */
 .header {
     display: flex;
     flex-direction: column;
@@ -99,3 +101,77 @@ h1,h2,h3,h4,h5,h6,p {
     width: 100%;
     border-radius: 5px;
 }
+
+/* END OF HEADER CSS */
+
+/* MAIN CONTENT CSS */
+
+/* 4 IMAGES SECTION */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 100px;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.section-1 h2 {
+    font-size: 2.5rem;
+}
+
+.four-images {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 45px;
+}
+
+.four-images-content {
+    width: 200px;
+    text-align: center;
+}
+
+.four-images img {
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    border: 2px solid var(--button-color);
+    border-radius: 5px;
+    transition: all 100ms ease-in;
+}
+
+.four-images img:hover {
+    border: 2px solid black;
+}
+
+/* END OF 4 IMAGES SECTION */
+
+/* QUOTE SECTION */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 200px;
+    background: var(--quote-bg);
+}
+
+.quote-section p {
+    font-style: italic;
+}
+
+.quote-section h4 {
+    position: relative;
+    left: 220px;
+}
+
+/* END OF QUOTE SECTION */
+
+/* END OF MAIN CONTENT CSS */
